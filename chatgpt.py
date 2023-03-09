@@ -51,9 +51,7 @@ class GPT:
         response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
             messages=self.session["log"],
-            temperature=0.5,
-            max_tokens=2000,
-            top_p=0.5,
+            
         )
 
         res = response["choices"][0]["message"]["content"]
