@@ -52,7 +52,7 @@ class GPT:
             model="gpt-3.5-turbo",
             messages=self.session["log"],
             temperature=0.5,
-            max_tokens=400,
+            max_tokens=4000,
             top_p=1,
         )
 
