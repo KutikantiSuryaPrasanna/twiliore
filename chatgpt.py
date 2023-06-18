@@ -3,7 +3,7 @@ import re
 import json
 import requests
 
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "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"
 
 
 class GPT:
