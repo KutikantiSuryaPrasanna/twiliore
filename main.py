@@ -1,5 +1,7 @@
 from flask import Flask, request
 from twilio.twiml.messaging_response import MessagingResponse
+from urllib.parse import quote as url_quote
+
 from chatgpt import GPT
 
 app = Flask(__name__)
